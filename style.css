@@ -4,13 +4,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
 }
 
 header{
-    border:1px solid red;
     padding:10px;
     justify-content: center;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:bolder;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+video{
+    width: 400px;
 }
